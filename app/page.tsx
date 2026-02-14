@@ -1,15 +1,17 @@
-import Hero from "@components/Hero";
-import Services from "@components/Services";
-import Portfolio from "@components/Portfolio";
-import CTA from "@components/CTA";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <Services />
       <Portfolio />
       <CTA />
-    </main>
+      <Footer />
+    </>
   );
 }
